@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51c1ab78-d02a-4c50-9645-95c8bf75e058" name="Default Changelist" comment="" />
+    <list default="true" id="51c1ab78-d02a-4c50-9645-95c8bf75e058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/db/article_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/db/article_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/db/category.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/db/category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +28,17 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1TGkDrqiTJsYT1oWK3ylkZl0qjR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,7 +61,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestGetArticleList in go_blog/dao/db (1)">
+  <component name="RunManager" selected="Go Build.go build go_blog">
+    <configuration name="go build go_blog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_blog" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="go_blog" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestGetArticleList in go_blog/dao/db (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_blog" />
       <working_directory value="$PROJECT_DIR$/dao/db" />
@@ -90,29 +115,29 @@
       <pattern value="^TestGetCategoryList$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInsertArticle in go_blog/dao/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_blog" />
-      <working_directory value="$PROJECT_DIR$/dao/db" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_blog/dao/db" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInsertArticle$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_blog" />
         <item itemvalue="Go Test.TestGetArticleList in go_blog/dao/db (1)" />
         <item itemvalue="Go Test.TestGetArticleList in go_blog/dao/db" />
         <item itemvalue="Go Test.TestGetCategoryList in go_blog/dao/db" />
         <item itemvalue="Go Test.TestGetCategoryById in go_blog/dao/db (1)" />
-        <item itemvalue="Go Test.TestInsertArticle in go_blog/dao/db" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
